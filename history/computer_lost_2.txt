@@ -1,0 +1,796 @@
+computer lost 2
+
+
+
+
+➜  mancala python3 mancala_ai.py
+Running mancala.py
+
+Board initialized
+Should computer be A or B? A
+
+
+
+==========================================================
+Playing round  1
+Player  A  has a valid move
+
+
+Player A (computer) to move
+Current board:
+      4     4     4     4     4     4
+ 0                                      0
+      4     4     4     4     4     4
+
+running get_computer_input
+
+
+computer move results:
+[{'idx': 3, 'store_quantity': 6, 'player_goes_again': False}, {'idx': 0, 'store_quantity': 5, 'player_goes_again': False}, {'idx': 4, 'store_quantity': 3, 'player_goes_again': True}, {'idx': 5, 'store_quantity': 2, 'player_goes_again': True}, {'idx': 2, 'store_quantity': 1, 'player_goes_again': True}]
+
+--------> computer chose  3
+Last stone dropped on idx  7  which has  5  stones, will continue
+Last stone dropped on idx  12  which has  5  stones, will continue
+Last stone dropped on idx  4  which has  6  stones, will continue
+Last stone dropped on idx  10  which has  6  stones, will continue
+Last stone dropped on idx  3  which has  2  stones, will continue
+Last stone dropped on idx  5  which has  7  stones, will continue
+Last stone dropped on idx  12  which has  2  stones, will continue
+Last stone dropped on idx  1  which has  7  stones, will continue
+Last stone dropped on idx  8  which has  8  stones, will continue
+Last stone dropped on idx  3  which has  2  stones, will continue
+Last stone dropped on idx  5  which has  2  stones, will continue
+Last stone dropped on idx  7  which has  4  stones, will continue
+Last stone dropped on idx  11  which has  9  stones, will continue
+
+Dropped last stone in reglar hole, round will end
+
+
+
+==========================================================
+Playing round  2
+Player  B  has a valid move
+
+
+Player B to move
+Current board:
+      2     0     3     9     1     1
+ 0                                      6
+      9     2     9     1     4     1
+
+Choose a hole: 10
+Dropped last stone in store, player can go again
+Player  B  has a valid move
+
+
+Player B to move
+Current board:
+      3     1     0     9     1     1
+ 1                                      6
+      9     2     9     1     4     1
+
+Choose a hole: 8
+Last stone dropped on idx  9  which has  10  stones, will continue
+Last stone dropped on idx  5  which has  2  stones, will continue
+
+Dropped last stone in reglar hole, round will end
+
+
+
+==========================================================
+Playing round  3
+Player  A  has a valid move
+
+
+Player A (computer) to move
+Current board:
+      4     2     1     0     1     2
+ 2                                      6
+     10     3    10     2     5     0
+
+running get_computer_input
+
+
+
+
+computer move results:
+[{'idx': 0, 'store_quantity': 9, 'player_goes_again': False}, {'idx': 2, 'store_quantity': 8, 'player_goes_again': False}, {'idx': 4, 'store_quantity': 7, 'player_goes_again': False}, {'idx': 3, 'store_quantity': 6, 'player_goes_again': False}]
+
+--------> computer chose  0
+Last stone dropped on idx  10  which has  2  stones, will continue
+Last stone dropped on idx  12  which has  5  stones, will continue
+Last stone dropped on idx  4  which has  7  stones, will continue
+Last stone dropped on idx  11  which has  4  stones, will continue
+Last stone dropped on idx  2  which has  13  stones, will continue
+
+Dropped last stone in reglar hole, round will end
+
+
+
+==========================================================
+Playing round  4
+Player  B  has a valid move
+
+
+Player B to move
+Current board:
+      2     1     2     3     4     5
+ 2                                      9
+      3     7     1     5     1     3
+
+Choose a hole: 11
+Last stone dropped on idx  12  which has  3  stones, will continue
+Last stone dropped on idx  1  which has  8  stones, will continue
+Last stone dropped on idx  10  which has  3  stones, will continue
+Dropped last stone in store, player can go again
+Player  B  has a valid move
+
+
+Player B to move
+Current board:
+      1     1     0     4     5     6
+ 4                                      9
+      4     0     2     6     2     4
+
+Choose a hole: 12
+Dropped last stone in store, player can go again
+Player  B  has a valid move
+
+
+Player B to move
+Current board:
+      0     1     0     4     5     6
+ 5                                      9
+      4     0     2     6     2     4
+
+Choose a hole: 9
+Dropped last stone in store, player can go again
+Player  B  has a valid move
+
+
+Player B to move
+Current board:
+      1     2     1     0     5     6
+ 6                                      9
+      4     0     2     6     2     4
+
+Choose a hole: 12
+Dropped last stone in store, player can go again
+Player  B  has a valid move
+
+
+Player B to move
+Current board:
+      0     2     1     0     5     6
+ 7                                      9
+      4     0     2     6     2     4
+
+Choose a hole: 11
+Dropped last stone in store, player can go again
+Player  B  has a valid move
+
+
+Player B to move
+Current board:
+      1     0     1     0     5     6
+ 8                                      9
+      4     0     2     6     2     4
+
+Choose a hole: 12
+Dropped last stone in store, player can go again
+Player  B  has a valid move
+
+
+Player B to move
+Current board:
+      0     0     1     0     5     6
+ 9                                      9
+      4     0     2     6     2     4
+
+Choose a hole: 8
+Dropped last stone in store, player can go again
+Player  B  has a valid move
+
+
+Player B to move
+Current board:
+      1     1     2     1     0     6
+10                                      9
+      4     0     2     6     2     4
+
+Choose a hole: 12
+Dropped last stone in store, player can go again
+Player  B  has a valid move
+
+
+Player B to move
+Current board:
+      0     1     2     1     0     6
+11                                      9
+      4     0     2     6     2     4
+
+Choose a hole: 9
+Last stone dropped on idx  10  which has  3  stones, will continue
+Dropped last stone in store, player can go again
+Player  B  has a valid move
+
+
+Player B to move
+Current board:
+      1     2     0     0     0     6
+12                                      9
+      4     0     2     6     2     4
+
+Choose a hole: 12
+Dropped last stone in store, player can go again
+Player  B  has a valid move
+
+
+Player B to move
+Current board:
+      0     2     0     0     0     6
+13                                      9
+      4     0     2     6     2     4
+
+Choose a hole: 11
+Dropped last stone in store, player can go again
+Player  B  has a valid move
+
+
+Player B to move
+Current board:
+      1     0     0     0     0     6
+14                                      9
+      4     0     2     6     2     4
+
+Choose a hole: 12
+Dropped last stone in store, player can go again
+Player  B  has a valid move
+
+
+Player B to move
+Current board:
+      0     0     0     0     0     6
+15                                      9
+      4     0     2     6     2     4
+
+Choose a hole: 7
+Dropped last stone in store, player can go again
+Player  B  has a valid move
+
+
+Player B to move
+Current board:
+      1     1     1     1     1     0
+16                                      9
+      4     0     2     6     2     4
+
+Choose a hole: 12
+Dropped last stone in store, player can go again
+Player  B  has a valid move
+
+
+Player B to move
+Current board:
+      0     1     1     1     1     0
+17                                      9
+      4     0     2     6     2     4
+
+Choose a hole: 10
+Last stone dropped on idx  11  which has  2  stones, will continue
+Dropped last stone in store, player can go again
+Player  B  has a valid move
+
+
+Player B to move
+Current board:
+      1     0     0     1     1     0
+18                                      9
+      4     0     2     6     2     4
+
+Choose a hole: 12
+Dropped last stone in store, player can go again
+Player  B  has a valid move
+
+
+Player B to move
+Current board:
+      0     0     0     1     1     0
+19                                      9
+      4     0     2     6     2     4
+
+Choose a hole: 8
+Last stone dropped on idx  9  which has  2  stones, will continue
+
+Dropped last stone in reglar hole, round will end
+
+
+
+==========================================================
+Playing round  5
+Player  A  has a valid move
+
+
+Player A (computer) to move
+Current board:
+      0     1     1     0     0     0
+19                                      9
+      4     0     2     6     2     4
+
+running get_computer_input
+
+--------> computer chose  4
+Dropped last stone in store, player can go again
+Player  A  has a valid move
+
+
+Player A (computer) to move
+Current board:
+      0     1     1     0     0     0
+19                                     10
+      4     0     2     6     0     5
+
+running get_computer_input
+
+
+
+
+computer move results:
+[{'idx': 3, 'store_quantity': 11, 'player_goes_again': False}, {'idx': 5, 'store_quantity': 11, 'player_goes_again': False}, {'idx': 0, 'store_quantity': 10, 'player_goes_again': False}, {'idx': 2, 'store_quantity': 10, 'player_goes_again': False}]
+
+--------> computer chose  3
+
+Dropped last stone in reglar hole, round will end
+
+
+
+==========================================================
+Playing round  6
+Player  B  has a valid move
+
+
+Player B to move
+Current board:
+      0     1     1     1     1     1
+19                                     11
+      4     0     2     0     1     6
+
+Choose a hole: 10
+Last stone dropped on idx  11  which has  2  stones, will continue
+Dropped last stone in store, player can go again
+Player  B  has a valid move
+
+
+Player B to move
+Current board:
+      1     0     0     1     1     1
+20                                     11
+      4     0     2     0     1     6
+
+Choose a hole: 12
+Dropped last stone in store, player can go again
+Player  B  has a valid move
+
+
+Player B to move
+Current board:
+      0     0     0     1     1     1
+21                                     11
+      4     0     2     0     1     6
+
+Choose a hole: 7
+Last stone dropped on idx  8  which has  2  stones, will continue
+
+Dropped last stone in reglar hole, round will end
+
+
+
+==========================================================
+Playing round  7
+Player  A  has a valid move
+
+
+Player A (computer) to move
+Current board:
+      0     0     1     2     0     0
+21                                     11
+      4     0     2     0     1     6
+
+running get_computer_input
+
+
+computer move results:
+[{'idx': 0, 'store_quantity': 12, 'player_goes_again': True}, {'idx': 2, 'store_quantity': 12, 'player_goes_again': True}, {'idx': 4, 'store_quantity': 12, 'player_goes_again': False}, {'idx': 5, 'store_quantity': 12, 'player_goes_again': False}]
+
+--------> computer chose  0
+Last stone dropped on idx  4  which has  2  stones, will continue
+Dropped last stone in store, player can go again
+Player  A  has a valid move
+
+
+Player A (computer) to move
+Current board:
+      0     0     1     2     0     0
+21                                     12
+      0     1     3     1     0     7
+
+running get_computer_input
+
+
+
+computer move results:
+[{'idx': 2, 'store_quantity': 13, 'player_goes_again': False}, {'idx': 5, 'store_quantity': 13, 'player_goes_again': False}, {'idx': 3, 'store_quantity': 12, 'player_goes_again': False}]
+
+--------> computer chose  2
+Last stone dropped on idx  5  which has  8  stones, will continue
+
+Dropped last stone in reglar hole, round will end
+
+
+
+==========================================================
+Playing round  8
+Player  B  has a valid move
+
+
+Player B to move
+Current board:
+      1     1     2     3     1     1
+21                                     13
+      1     1     0     2     1     0
+
+Choose a hole: 12
+Dropped last stone in store, player can go again
+Player  B  has a valid move
+
+
+Player B to move
+Current board:
+      0     1     2     3     1     1
+22                                     13
+      1     1     0     2     1     0
+
+Choose a hole: 8
+Last stone dropped on idx  9  which has  4  stones, will continue
+Dropped last stone in store, player can go again
+Player  B  has a valid move
+
+
+Player B to move
+Current board:
+      1     2     3     0     0     1
+23                                     13
+      1     1     0     2     1     0
+
+Choose a hole: 12
+Dropped last stone in store, player can go again
+Player  B  has a valid move
+
+
+Player B to move
+Current board:
+      0     2     3     0     0     1
+24                                     13
+      1     1     0     2     1     0
+
+Choose a hole: 11
+Dropped last stone in store, player can go again
+Player  B  has a valid move
+
+
+Player B to move
+Current board:
+      1     0     3     0     0     1
+25                                     13
+      1     1     0     2     1     0
+
+Choose a hole: 12
+Dropped last stone in store, player can go again
+Player  B  has a valid move
+
+
+Player B to move
+Current board:
+      0     0     3     0     0     1
+26                                     13
+      1     1     0     2     1     0
+
+Choose a hole: 10
+Dropped last stone in store, player can go again
+Player  B  has a valid move
+
+
+Player B to move
+Current board:
+      1     1     0     0     0     1
+27                                     13
+      1     1     0     2     1     0
+
+Choose a hole: 12
+Dropped last stone in store, player can go again
+Player  B  has a valid move
+
+
+Player B to move
+Current board:
+      0     1     0     0     0     1
+28                                     13
+      1     1     0     2     1     0
+
+Choose a hole: 7
+
+Dropped last stone in reglar hole, round will end
+
+
+
+==========================================================
+Playing round  9
+Player  A  has a valid move
+
+
+Player A (computer) to move
+Current board:
+      0     1     0     0     1     0
+28                                     13
+      1     1     0     2     1     0
+
+running get_computer_input
+
+
+computer move results:
+[{'idx': 0, 'store_quantity': 14, 'player_goes_again': True}, {'idx': 3, 'store_quantity': 13, 'player_goes_again': False}, {'idx': 4, 'store_quantity': 13, 'player_goes_again': False}]
+
+--------> computer chose  0
+Last stone dropped on idx  1  which has  2  stones, will continue
+Last stone dropped on idx  3  which has  3  stones, will continue
+Dropped last stone in store, player can go again
+Player  A  has a valid move
+
+
+Player A (computer) to move
+Current board:
+      0     1     0     0     1     0
+28                                     14
+      0     0     1     0     2     1
+
+running get_computer_input
+
+--------> computer chose  5
+Dropped last stone in store, player can go again
+Player  A  has a valid move
+
+
+Player A (computer) to move
+Current board:
+      0     1     0     0     1     0
+28                                     15
+      0     0     1     0     2     0
+
+running get_computer_input
+
+--------> computer chose  4
+Dropped last stone in store, player can go again
+Player  A  has a valid move
+
+
+Player A (computer) to move
+Current board:
+      0     1     0     0     1     0
+28                                     16
+      0     0     1     0     0     1
+
+running get_computer_input
+
+--------> computer chose  5
+Dropped last stone in store, player can go again
+Player  A  has a valid move
+
+
+Player A (computer) to move
+Current board:
+      0     1     0     0     1     0
+28                                     17
+      0     0     1     0     0     0
+
+running get_computer_input
+
+computer move results:
+[{'idx': 2, 'store_quantity': 17, 'player_goes_again': False}]
+
+--------> computer chose  2
+
+Dropped last stone in reglar hole, round will end
+
+
+
+==========================================================
+Playing round  10
+Player  B  has a valid move
+
+
+Player B to move
+Current board:
+      0     1     0     0     1     0
+28                                     17
+      0     0     0     1     0     0
+
+Choose a hole: 11
+
+Dropped last stone in reglar hole, round will end
+
+
+
+==========================================================
+Playing round  11
+Player  A  has a valid move
+
+
+Player A (computer) to move
+Current board:
+      1     0     0     0     1     0
+28                                     17
+      0     0     0     1     0     0
+
+running get_computer_input
+
+computer move results:
+[{'idx': 3, 'store_quantity': 17, 'player_goes_again': False}]
+
+--------> computer chose  3
+
+Dropped last stone in reglar hole, round will end
+
+
+
+==========================================================
+Playing round  12
+Player  B  has a valid move
+
+
+Player B to move
+Current board:
+      1     0     0     0     1     0
+28                                     17
+      0     0     0     0     1     0
+
+Choose a hole: 12
+Dropped last stone in store, player can go again
+Player  B  has a valid move
+
+
+Player B to move
+Current board:
+      0     0     0     0     1     0
+29                                     17
+      0     0     0     0     1     0
+
+Choose a hole: 8
+
+Dropped last stone in reglar hole, round will end
+
+
+
+==========================================================
+Playing round  13
+Player  A  has a valid move
+
+
+Player A (computer) to move
+Current board:
+      0     0     0     1     0     0
+29                                     17
+      0     0     0     0     1     0
+
+running get_computer_input
+
+computer move results:
+[{'idx': 4, 'store_quantity': 17, 'player_goes_again': False}]
+
+--------> computer chose  4
+
+Dropped last stone in reglar hole, round will end
+
+
+
+==========================================================
+Playing round  14
+Player  B  has a valid move
+
+
+Player B to move
+Current board:
+      0     0     0     1     0     0
+29                                     17
+      0     0     0     0     0     1
+
+Choose a hole: 9
+
+Dropped last stone in reglar hole, round will end
+
+
+
+==========================================================
+Playing round  15
+Player  A  has a valid move
+
+
+Player A (computer) to move
+Current board:
+      0     0     1     0     0     0
+29                                     17
+      0     0     0     0     0     1
+
+running get_computer_input
+
+--------> computer chose  5
+Dropped last stone in store, player can go again
+Player  A  has no valid moves
+
+
+
+==========================================================
+Playing round  16
+Player  B  has a valid move
+
+
+Player B to move
+Current board:
+      0     0     1     0     0     0
+29                                     18
+      0     0     0     0     0     0
+
+Choose a hole: 10
+
+Dropped last stone in reglar hole, round will end
+
+
+
+==========================================================
+Playing round  17
+Player  A  has no valid moves
+
+
+
+==========================================================
+Playing round  18
+Player  B  has a valid move
+
+
+Player B to move
+Current board:
+      0     1     0     0     0     0
+29                                     18
+      0     0     0     0     0     0
+
+Choose a hole: 11
+
+Dropped last stone in reglar hole, round will end
+
+
+
+==========================================================
+Playing round  19
+Player  A  has no valid moves
+
+
+
+==========================================================
+Playing round  20
+Player  B  has a valid move
+
+
+Player B to move
+Current board:
+      1     0     0     0     0     0
+29                                     18
+      0     0     0     0     0     0
+
+Choose a hole: 12
+Dropped last stone in store, player can go again
+
+Game over. End state:
+      0     0     0     0     0     0
+30                                     18
+      0     0     0     0     0     0
+
+➜  mancala
